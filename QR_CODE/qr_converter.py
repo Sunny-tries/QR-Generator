@@ -8,12 +8,7 @@ def deletefiles(counter):
             os.remove(f"link_{num}.png")
         else:
             print("File does not exsist")
-    
-
-
-title = "QR Code Generator"
-prompt = "Paste in any website link in order to get a QR code for that website"
-
+            
 counter = 0
 
 
