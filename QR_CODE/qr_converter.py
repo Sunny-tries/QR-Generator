@@ -32,11 +32,8 @@ while True:
         img = qr.make_image(fill_color = 'black', back_color = 'white')
         img.save(f'link_{counter}.png')
         window['-IMAGE-'].update(filename='')
-        print('Image cleared')
         window.refresh()
         window['-IMAGE-'].update(filename=f"link_{counter}.png")
-        print('Image added')
         counter = counter + 1
-        print("Counter added")
         
 window.close()
